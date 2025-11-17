@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natnael Solomon - Portfolio</title>
+    <style>
+   
+           body{
+            margin: 0;
+            padding: 0;
+           background-color: rgb(250, 254, 254)
+        }
+        html {
+    scroll-behavior: smooth;
+}
+        header{
+         height: 15vh;
+         width: 100%;
+         display: flex;
+         color:  white;
+         background-color: #f9fafb;
+         justify-content: space-between;
+         align-items: center;
+         position: fixed;
+         z-index: 1;
+         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+       nav{
+        margin-right: 30px;
+
+       }
+       a{
+        margin: 10px;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+       }
+       a:hover{
+        text-decoration: underline;
+        transition: 1s ease;
+        text-decoration-color:  #2563eb;
+       }
+       .logo{
+       font-size: 40px;
+       margin-left: 30px;
+       color: #2563eb;
+       font-family: sans-serif, poppins;
+       }
+       .box{
+       background-color:  #d9e6ff;
+      width: 100%;
+      height: auto;
+      display: flex;
+     
+       }
+       .box1{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 50%;
+        height: 500px;
+        background-color:  #d9e6ff;
+        color: grey;
+        font-family: sans-serif,  poppins;
+       }
+       .box2{
+        margin-top:100px;
+       }
+       .box1 h1{
+        font-size: 50px;
+        line-height: 1.3;
+        margin-top: 100px;
+        color: black;
+         animation: fadeInUp 1s ease-out 0.5s both;
+       }
+          .box1 h2{
+         animation: fadeInUp 1s ease-out 0.7s both;
+     }
+     .box1 p{
+         animation: fadeInUp 1s ease-out 0.9s both;
+     }
+     .btn{
+         animation: fadeInUp 1s ease-out 0.11s both;
+     }
+       .divs{
+        margin-top: 30px;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background-color: blue;
+        margin-top: 30px;
+        margin-left: 50%;
+        color: black;
+        animation: bounceIn 1.5s ease-out 0.8s both, float 4s ease-in-out 2.5s infinite;
+       }
+            .divs1{
+        margin-top: 30px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: rgb(184, 184, 255);
+       margin-bottom: 20px;
+        margin-left: 100%;
+        color: black;
+         animation: bounceIn 1.5s ease-out 1s both, float 4s ease-in-out 3s infinite;
+       }
+          .div5{
+        height: 350px;
+        width: 480px;
+        height: 600px;
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+        background-image: url(image.avif);
+        background-size: cover;
+
+        background-color: blue;
+        
+        color: black;
+       }
+       .btn{
+        padding: 20px 60px;
+        background-color: #2563eb;
+        border-style: hidden;
+        color: white;
+        border-radius: 16px;
+        font-size: 18px;
+       }
+       .about{
+        background-color: rgb(250, 254, 254);
+      width: 100%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+
+  
+       }
+       .about h1{
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         animation: fadeInUp 1s ease-out 0.3s both;
+        
+       }
+       .about2{
+        display: flex;
+        width: 100%;
+        height: auto;
+       }
+         .box3{
+        width: 50%;
+        height: auto;
+        background-color: rgb(250, 254, 254);
+        color: white;
+        font-family: sans-serif,  poppins;
+        margin-top: 100px;
+       }
+       .box3 p{
+        color: grey;
+        margin-left: 10px;
+        line-height: 1.5;
+        font-family: sans-serif;
+          animation: fadeInLeft 1s ease-out 0.57s both;
+       }
+       .cardsec{
+        width: 100%;
+        height: auto;
+       background-color: rgb(250, 254, 254);
+        display: flex;
+          justify-content: center;
+        flex-direction: column;
+        align-items: center;
+       }
+       .card ,h1{
+        color: rgb(0, 0, 0);
+        display: flex;
+       font-family: sans-serif, poppins;
+       font-size: 35px;
+      
+
+       }
+       .cards{
+        height:  auto;
+        width: 100%;
+        background-color: rgb(250, 254, 254);
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+       }
+       .card{
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        height: auto;
+        width: 350px;
+        margin: 15px;
+        border-radius:15px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+       }
+       .im{
+        height: 100px;
+       }
+       .card p{
+        font-size: 18px;
+        color: grey;
+        margin: 30px;
+       }
+       .card h3{
+        font-size: 21px;
+       }
+       .card:hover{
+        transition: 1s ease;
+        transform: translateY(-10px);
+       }
+       .project{
+        width: 100%;
+        height: auto;
+        background-color: rgb(250, 254, 254);
+        display: flex;
+        flex-direction: column;
+
+       }
+       .pro{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+       }
+       .main{
+        background-color: rgb(250, 254, 254);
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       }
+       .main div{
+        background-color: rgb(255, 255, 255);
+        height: 320px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        border-radius: 14px;
+       }
+       .conta{
+         background-color: rgb(250, 254, 254);
+         height: auto;
+         width: 100;
+         display: flex;
+       }
+       .locat{
+        background-color: rgb(250, 254, 254);
+        width: 60%;
+        height: auto;
+       }
+       .fo{
+        width: 60%;
+        height: auto;
+        background-color: rgb(250, 254, 254);
+       }
+       footer{
+        background-color: #07132b;
+        height: 30vh;
+        width: 100%;
+       }
+       dl{
+        margin-left: 40px;
+        margin-top: 300px;
+       }
+       dt{
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+       }
+       dd{
+         font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+       }
+       .forms{
+        height: auto;
+        width: 450px;
+        box-shadow:0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+       margin: 40px;
+       border-radius: 20px;
+
+      
+       }
+       form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+       }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+       input{
+        padding: 10px 50px;
+       margin-top:30px ;
+       margin-left: 30px;
+       margin-right:30px ;
+       border-style: solid;
+       border: 1px solid grey;
+       border-radius: 12px;
+
+       }
+       .proj{
+         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+       }
+       textarea{
+       height: 150px;
+           margin-top:30px ;
+       margin-left: 30px;
+       margin-right:30px ;
+       margin-top: 20px;
+       border-style: solid;
+       border: 1px solid grey;
+       border-radius: 12px;
+       }
+       .btn2{
+        margin-top:20px ;
+        padding: 10px 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        border-radius: 12px;
+        color: white;
+        background-color: #2563eb;
+        border: none;
+       }
+       h3{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+       }
+       img{
+        height: 50%;
+        width: 100%;
+       }
+       label{
+        margin-left: 30px;
+        margin-top: 20px;
+       }
+       button{
+        margin-top: 30px;
+        margin-left: 20px;
+        padding: 10px 40px;
+        border: none;
+        background-color: #2563eb;
+        color: white;
+        border-radius:12px ;
+       }
+    
+
+    @media (max-width: 1024px) {
+        .box1 h1 {
+            font-size: 40px;
+        }
+        
+        .divs {
+            height: 250px;
+            width: 250px;
+        }
+        
+        .divs1 {
+            height: 150px;
+            width: 150px;
+        }
+        
+        .div5 {
+            width: 400px;
+            height: 500px;
+        }
+        
+        .cards {
+            flex-wrap: wrap;
+        }
+        
+        .card {
+            width: 300px;
+        }
+        
+        .main {
+            flex-wrap: wrap;
+        }
+        
+        .main div {
+            width: 280px;
+        }
+    }
+    
+    
+    @media (max-width: 768px) {
+        header {
+            height: 12vh;
+        }
+        
+        .logo {
+            font-size: 30px;
+        }
+        
+        nav a {
+            font-size: 16px;
+        }
+        
+        .box {
+            flex-direction: column;
+        }
+        
+        .box1 {
+            width: 90%;
+            margin-left: 5%;
+            height: auto;
+            margin-bottom: 30px;
+        }
+        
+        .box1 h1 {
+            margin-top: 50px;
+            font-size: 35px;
+        }
+        
+        .box2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 0;
+        }
+        
+        .divs, .divs1 {
+            margin-left: 0;
+            position: relative;
+        }
+        
+        .divs {
+            height: 200px;
+            width: 200px;
+        }
+        
+        .divs1 {
+            height: 120px;
+            width: 120px;
+            margin-left: -50px;
+            margin-top: 50px;
+        }
+        
+        .about2 {
+            flex-direction: column;
+        }
+        
+        .box3 {
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 50px;
+        }
+        
+        .box3 h1 {
+            font-size: 30px;
+        }
+        
+        .div5 {
+            width: 90%;
+            margin-left: 5%;
+            height: 400px;
+        }
+        
+        .cards {
+            flex-direction: column;
+        }
+        
+        .card {
+            width: 80%;
+            margin: 15px auto;
+        }
+        
+        .conta {
+            flex-direction: column;
+        }
+        
+        .locat, .fo {
+            width: 100%;
+        }
+        
+        dl {
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        
+        .forms {
+            width: 90%;
+            margin: 20px auto;
+        }
+    }
+    
+ 
+    @media (max-width: 480px) {
+        header {
+            height: 10vh;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        
+        .logo {
+            margin-left: 0;
+            margin-bottom: 5px;
+        }
+        
+        nav {
+            margin-right: 0;
+        }
+        
+        nav a {
+            font-size: 14px;
+            margin: 5px;
+        }
+        
+        .box1 h1 {
+            font-size: 28px;
+            margin-top: 30px;
+        }
+        
+        .btn {
+            padding: 15px 40px;
+            font-size: 16px;
+        }
+        
+        .divs {
+            height: 150px;
+            width: 150px;
+        }
+        
+        .divs1 {
+            height: 100px;
+            width: 100px;
+        }
+        
+        .box3 h1 {
+            font-size: 24px;
+        }
+        
+        .card, h1 {
+            font-size: 28px;
+        }
+        
+        .main div {
+            width: 90%;
+            margin-left: 5%;
+            height: auto;
+            padding-bottom: 20px;
+        }
+        
+        input {
+            padding: 10px 20px;
+        }
+        
+        .btn2 {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        footer {
+            height: 20vh;
+        }
+    }
+    
+    
+    @media (max-width: 320px) {
+        .box1 h1 {
+            font-size: 24px;
+        }
+        
+        .box3 h1 {
+            font-size: 20px;
+        }
+        
+        .card, h1 {
+            font-size: 24px;
+        }
+        
+        .main div {
+            width: 95%;
+            margin-left: 2.5%;
+        }
+        
+        button {
+            padding: 8px 25px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <b class="logo">NS</b>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="home" class="box">
+        <div class="box1">
+            <h1>Natnael Solomon</h1>
+            <h2>Web & Mobile devloper</h2>
+            <p>
+                Hi, I'm a passionate web and app developer who loves turning ideas into interactive experiences.
+                I build modern, responsive websites using HTML, CSS, and JavaScript.
+                I also create beautiful and functional mobile apps with Flutter.
+            </p>
+            <button class="btn">Say hello</button>
+        </div>
+        <div class="box2">
+            <div class="divs"></div>
+            <div class="divs1"></div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <h1>About Me</h1>
+        <div class="about2">
+            <div class="box3">
+                <h1>Hello! I'm John, a passionate Web &<br> Mobile Develope</h1>
+                <p>
+                    With over 5 years of experience in the industry, I specialize 
+                    in creating responsive websites and cross-platform mobile applications. I'm passionate about clean code, intuitive user interfaces, 
+                    and delivering solutions that exceed client expectations.
+                </p>
+            </div>
+            <div class="box4">
+                <div class="div5"></div>
+            </div>
+        </div>
+    </section>
+    
+    <Section id="skills" class="cardsec">
+        <h1>My Skill</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="mobile-svgrepo-com.svg" height="" class="im">
+                <h3>Mobile development</h3>
+                <p>Cross-platform mobile applications for iOS and Android using Flutter.</p>
+            </div>
+            <div class="card">
+                <img src="code-svgrepo-com.svg" alt="" class="im">
+                <h3>Web development</h3>
+                <p>Custom websites and web applications built with modern technologies, responsive design, and optimized performance.</p>
+            </div>
+            <div class="card">
+                <img src="paintbrush-svgrepo-com.svg" alt="" class="im">
+                <h3>UI/UIX Design</h3>
+                <p>User-centered design solutions that enhance usability and create engaging digital experiences.</p>
+            </div>
+        </div>
+    </Section>
+    
+    <section id="projects" class="projects">
+        <h1 class="pro">Project</h1>
+        <div class="main">
+            <div class="proj">
+                <img src="Screenshot 2025-11-16 105159.png" alt="">
+                <label for="" style="font-family: Arial, Helvetica, sans-serif; display: flex">A vacation booking app Made with flutter</label>
+                <button>Learn more</button>
+            </div>
+            <div class="proj">
+                <img src="Screenshot 2025-11-17 163811.png" alt="">
+                <label for="" style="font-family: Arial, Helvetica, sans-serif; display: flex">A BMI Calculator app Made with flutter</label>
+                <button>Learn more</button>
+            </div>
+            <div class="proj">
+                <img src="Screenshot 2025-11-08 122901.png" alt="">
+                <label for="" style="font-family: Arial, Helvetica, sans-serif; display: flex">School Website mead with html css and js</label>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="conta">
+        <div class="locat">
+            <dl>
+                <dt>Phone</dt>
+                <dd>+2510912604966</dd>
+                <dt>Email</dt>
+                <dd>Natnael@email.com</dd>
+                <dt>Location</dt>
+                <dd>Addis Abeba,Akaki</dd>
+            </dl>
+        </div>
+        <div class="fo">
+            <div class="forms"> 
+                <h3>Get Touch</h3>
+                <form action="">
+                    <input type="email" placeholder="Enter your Name">
+                    <input type="text" placeholder="Enter your email">
+                    <input type="text" placeholder="Your Subject">
+                    <textarea name="" id=""></textarea>
+                    <button class="btn2">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
